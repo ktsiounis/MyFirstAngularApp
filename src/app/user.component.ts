@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-user',
-  templateUrl: './user.component.html',
+  templateUrl: './user.component.html'
 })
 export class UserComponent {
-  name = 'Dinos Tsiounis';
+  @Input() name = 'dinos Tsiounis';
 
   onUserInput(event) {
     this.name = event.value;

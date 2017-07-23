@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   appTitle = 'Angular App';
+  rootItems = ['Banana', 'Apple', 'Cherry'];
 }
